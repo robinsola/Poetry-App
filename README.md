@@ -1,4 +1,4 @@
-# Poetry App
+# Sonnet - Poetry app
 ##### Robin Sola // June 2018
 ---
 ### Description
