@@ -1,8 +1,8 @@
-# Webpack Template
-##### Robin Sola // June 12, 2018
+# Poetry App
+##### Robin Sola // June 2018
 ---
 ### Description
-Include description of project.
+A mobile app to find poems, using PoemDB. Search by theme, occasion, and/or author. Generate a random poem from the database. Save, store, and collect your favorite poems for easy access.
 
 ### Installation
 * Clone project folder in terminal: `$ git clone` repository url
@@ -10,7 +10,37 @@ Include description of project.
 * In terminal, run `$ npm start` to view in browser
 
 ### Brainstorming
-Include planning and brainstorming process.
+mood:
+* sleek, sexy, simple
+* stanza, versify, versifier, sonnet, couplet, limerick
+
+content & navigation:
+* Logo / login form / register
+* Nav bar: search / random poem / favorites
+* Search form: theme: text / occasion: dropdown / author: text
+* Poem marketplace: number of poems in search, list of poems with title / author / teaser
+* Poem detail: title / author / lines / button to add to favorites / btn back to search results
+
+icons:
+* logo: ink bottle with feather pen
+* search: magnify glass
+* generate random poem: two arrows / shuffle icon
+* list of favorites: heart with 3 lines
+* add to favorites: heart
+
+colors:
+* red rgb(255, 0, 0)-#ff0000
+* white rgb(255, 255, 255)-#ffffff
+* black rgb(0, 0, 0)-#000000
+* drk gray rgb(58, 58, 58)-#3a3a3a
+* lite gray rgb(109, 109, 109)-#6d6d6d
+
+fonts:
+* Lato, sans-serif
+* Dancing Script, cursive
+* News Cycle, sans-serif
+* Special Elite, cursive
+
 
 ### Images
 Include images showing responsiveness and details.
@@ -30,9 +60,8 @@ Include bugs and contact information.
 ### Technologies and Resources
 * Sketch
 * HTML
-* CSS/SASS
-* Node
-* Webpack
+* CSS / SASS
+* npm / webpack
 
 ### License
 ##### Copyright (c) 2018 Robin Sola.
