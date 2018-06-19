@@ -1,6 +1,8 @@
 # Stanza - Poetry app
 ##### Robin Sola // June 2018
 ---
+![mobile user interface](./screen_shot.png)
+
 ### Description
 A mobile app to find poems, using PoemDB API. Search by theme, occasion, and/or author. Generate a random poem from the database. Save, store, and collect your favorite poems for easy access.
 
@@ -41,12 +43,6 @@ fonts:
 * Sign Painter, cursive (use for logo)
 * News Cycle, sans-serif
 * Special Elite, cursive
-
-
-### Images
-Below are the mobile views created in SKETCH:
-
-![mobile user interface](./screen_shot.png)
 
 ### Known Bugs
 Include bugs and contact information.
