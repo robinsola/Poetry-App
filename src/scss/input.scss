@@ -4,9 +4,7 @@ $white: #FFFFFF;
 
 $lato: 'Lato', sans-serif;
 $yesteryear: 'Yesteryear', cursive;
-$norican: 'Norican', cursive; //nope
 $arizona: 'Arizonia', cursive;
-$engagement: 'Engagement', cursive; //nope
 $condiment: 'Condiment', cursive;
 
 *, html, body {
@@ -21,6 +19,7 @@ $condiment: 'Condiment', cursive;
 }
 
 .main {
+  transform: translateY(-150px);
   position: relative;
   display: flex;
   justify-content: center;
@@ -47,11 +46,13 @@ $condiment: 'Condiment', cursive;
       border-radius: 25px;
       font-size: 1em;
       padding: 15px 20px 20px 20px;
-      animation: btnGlow 0.5s linear 8.3s;
+      animation: btnGlow 0.3s linear 8s;
     }
     @keyframes btnGlow {
       0% {}
-      50% {box-shadow: 0 0 40px 5px white}
+      // 50% {box-shadow: 0 0 40px 5px white}
+      25% {transform:rotate(8deg)}
+      75% {transform:rotate(-8deg)}
       100% {}
     }
   }
@@ -59,7 +60,7 @@ $condiment: 'Condiment', cursive;
     position: absolute;
     top: -200px;
     transform: rotate(-95deg);
-    animation: featherDrop 8s ease-in-out 0.5s;
+    animation: featherDrop 8s ease-in-out 0s;
     animation-fill-mode: forwards;
   }
   @keyframes featherDrop {
