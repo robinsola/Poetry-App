@@ -1,0 +1,84 @@
+$darkgray: #4C4C4C;
+$mintblue: #50E3C2;
+$white: #FFFFFF;
+
+$lato: 'Lato', sans-serif;
+$yesteryear: 'Yesteryear', cursive;
+$norican: 'Norican', cursive; //nope
+$arizona: 'Arizonia', cursive;
+$engagement: 'Engagement', cursive; //nope
+$condiment: 'Condiment', cursive;
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 1220px;
+  background: linear-gradient(#F6FA61, #F76B1C);
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 70%;
+  }
+  .logo {
+    position: absolute;
+    top: 550px;
+  }
+  .feather {
+    position: absolute;
+    top: -200px;
+    transform: rotate(-95deg);
+    animation: featherDrop 8s ease-in-out 0.5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes featherDrop {
+    0% {}
+    10% {transform: translate(250px, 50px) rotate(-120deg)}
+    25% {transform: translate(-250px, 150px) rotate(-70deg)}
+    40% {transform: translate(200px, 250px) rotate(-100deg)}
+    55% {transform: translate(-230px, 350px) rotate(-70deg)}
+    70% {transform: translate(130px, 450px) rotate(-95deg)}
+    85% {transform: translate(-200px, 460px) rotate(-70deg)}
+    100% {transform: translate(-15px, 495px)}
+  }
+}
+
+
+
+
+
+// .main {
+//   display: grid;
+//   grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px;
+//   grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+//   justify-content: center;
+//   margin: 0 auto;
+//   img {
+//     width: 80px;
+//     height: auto;
+//   }
+//   h1 {
+//     font-size: 4.5em;
+//     font-family: $arizona;
+//     color: $white;
+//   }
+//   .feather {
+//     grid-column: 3 / 4;
+//     grid-row: 2 / 3;
+//   }
+//   .ink {
+//     grid-column: 2 / 3;
+//     grid-row: 7 / 8;
+//   }
+//   .logo-text {
+//     grid-column: 1 / 2;
+//     grid-row: 8 / 9;
+//   }
+// }
