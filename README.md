@@ -43,15 +43,10 @@ fonts:
 
 
 ### Images
-Include images showing responsiveness and details.
+Below are the mobile views created in SKETCH:
 
-##### Desktop Version
 
-![desktop user interface](img url)
-
-##### Mobile Version
-
-![mobile user interface](img url)
+![mobile user interface](./screen_shot.png)
 
 
 ### Known Bugs
