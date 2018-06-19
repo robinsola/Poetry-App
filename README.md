@@ -1,8 +1,8 @@
-# Sonnet - Poetry app
+# Stanza - Poetry app
 ##### Robin Sola // June 2018
 ---
 ### Description
-A mobile app to find poems, using PoemDB. Search by theme, occasion, and/or author. Generate a random poem from the database. Save, store, and collect your favorite poems for easy access.
+A mobile app to find poems, using PoemDB API. Search by theme, occasion, and/or author. Generate a random poem from the database. Save, store, and collect your favorite poems for easy access.
 
 ### Installation
 * Clone project folder in terminal: `$ git clone` repository url
@@ -11,11 +11,11 @@ A mobile app to find poems, using PoemDB. Search by theme, occasion, and/or auth
 
 ### Brainstorming
 mood:
-* sleek, sexy, simple
+* sleek, sexy-fresh, simple
 * stanza, versify, versifier, sonnet, couplet, limerick
 
 content & navigation:
-* Logo / login form / register
+* Logo / login form / register (probably won't have a user login)
 * Nav bar: search / random poem / favorites
 * Search form: theme: text / occasion: dropdown / author: text
 * Poem marketplace: number of poems in search, list of poems with title / author / teaser
@@ -25,19 +25,20 @@ icons:
 * logo: ink bottle with feather pen
 * search: magnify glass
 * generate random poem: two arrows / shuffle icon
-* list of favorites: heart with 3 lines
+* list of favorites: heart with 3 lines / double hearts
 * add to favorites: heart
 
 colors:
-* red rgb(255, 0, 0)-#ff0000
+* yellow / orange gradient
 * white rgb(255, 255, 255)-#ffffff
 * black rgb(0, 0, 0)-#000000
 * drk gray rgb(58, 58, 58)-#3a3a3a
 * lite gray rgb(109, 109, 109)-#6d6d6d
 
 fonts:
-* Lato, sans-serif
+* Lato, sans-serif (use for content)
 * Dancing Script, cursive
+* Sign Painter, cursive (use for logo)
 * News Cycle, sans-serif
 * Special Elite, cursive
 
@@ -45,9 +46,7 @@ fonts:
 ### Images
 Below are the mobile views created in SKETCH:
 
-
 ![mobile user interface](./screen_shot.png)
-
 
 ### Known Bugs
 Include bugs and contact information.
